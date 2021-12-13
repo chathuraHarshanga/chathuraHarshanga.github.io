@@ -1,2 +1,1 @@
-# chathuraHarshanga.github.io
-A portfolio and a tech blog
+<h1> this is the resume website </h1>
