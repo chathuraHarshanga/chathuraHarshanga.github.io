@@ -12,17 +12,21 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%; */
-  background-color: black;
+  background-color: rgb(14, 14, 14);
 }
 
 nav {
+  position: fixed;
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  min-height: 7vh;
+  min-height: 9vh;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
+  transition: 0.6s;
+  z-index: 1000;
 }
 
 .logo {
@@ -131,4 +135,9 @@ nav {
 }
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.fixed {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 7vh;
 }
