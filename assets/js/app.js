@@ -24,4 +24,9 @@ const navSlide = () => {
     
 }
 
+window.addEventListener('scroll', () => {
+    const nav = document.querySelector('nav');
+    nav.classList.toggle('fixed', window.scrollY > 0);
+});
+
 navSlide();
