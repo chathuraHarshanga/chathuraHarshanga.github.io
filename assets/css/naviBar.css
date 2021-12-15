@@ -108,10 +108,12 @@ nav {
   .logo {
     font-size: 18px;
   }
+}
+
+@media screen and (max-width: 750px) {
   .animation-text {
     font-size: 20px;
   }
-
   .animation-text a {
     margin: 10px 2px;
     padding: 9px 8px;
