@@ -53,9 +53,6 @@ nav {
   font-weight: bold;
   font-size: 14px;
 }
-.home {
-  height: 100vh;
-}
 
 .about {
   height: 100vh;
@@ -155,6 +152,7 @@ nav {
 /* home page text animation */
 
 .home {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
