@@ -114,6 +114,12 @@ nav {
   .animation-text {
     font-size: 20px;
   }
+
+  .animation-text a {
+    margin: 10px 2px;
+    padding: 9px 8px;
+    font-size: 15px;
+  }
 }
 
 .nav-active {
@@ -142,7 +148,7 @@ nav {
 }
 
 .fixed {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.9);
   min-height: 7vh;
 }
 
@@ -224,4 +230,28 @@ nav {
 .blog {
   height: 100vh;
   background-color: rgb(157, 255, 194);
+}
+
+.my-projects {
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  padding: 14px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Fira Mono", monospace;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.my-projects:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
 }
