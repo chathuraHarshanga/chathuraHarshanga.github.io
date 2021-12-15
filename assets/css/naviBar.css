@@ -210,3 +210,18 @@ nav {
     transform: translate(-22px, 5px) skew(21deg);
   }
 }
+
+.resume {
+  height: 100vh;
+  background-color: rgb(182, 182, 182);
+}
+
+.portfolio {
+  height: 100vh;
+  background-color: rgb(182, 221, 255);
+}
+
+.blog {
+  height: 100vh;
+  background-color: rgb(157, 255, 194);
+}
