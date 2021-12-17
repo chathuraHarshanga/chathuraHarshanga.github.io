@@ -8,10 +8,6 @@ html {
 }
 
 body {
-  /* background-image: url("../images/backgound-image.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%; */
   background-color: rgb(14, 14, 14);
 }
 
@@ -77,6 +73,13 @@ nav {
   }
 }
 
+@media screen and (max-width: 1250px) {
+  .coding-gif {
+    position: absolute;
+    top: 40vh;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   body {
     overflow-x: hidden;
@@ -119,8 +122,13 @@ nav {
     padding: 9px 8px;
     font-size: 15px;
   }
+
   .container-box {
     margin-left: 10px;
+  }
+
+  .coding-gif {
+    display: none;
   }
 }
 
@@ -257,20 +265,4 @@ nav {
 .my-projects:hover {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
-}
-
-.container-box {
-  height: 85vh;
-  width: 95vw;
-  border: 5px solid rgb(255, 255, 255);
-  border-radius: 30px;
-  margin: 10px 10px 10px 40px;
-}
-
-.container-box p {
-  color: white;
-  font-family: "Fira Mono", monospace;
-  font-size: 30px;
-  padding: 30px;
-  margin-left: 10px;
 }
