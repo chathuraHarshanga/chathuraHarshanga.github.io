@@ -68,6 +68,7 @@ nav {
   transition: all 0.3s ease;
 }
 
+/* media quaries starts here */
 @media screen and (max-width: 1500px) {
   .navi-links {
     width: 50%;
@@ -136,6 +137,8 @@ nav {
 .nav-active {
   transform: translateX(0%);
 }
+
+/* media quaries ends here  */
 
 @keyframes navLinkFade {
   from {
@@ -247,7 +250,7 @@ nav {
   background-color: aliceblue;
 }
 
-.my-projects {
+.my-projects-button {
   background-color: black;
   border: 2px solid white;
   color: white;
@@ -266,7 +269,7 @@ nav {
   font-weight: bold;
 }
 
-.my-projects:hover {
+.my-projects-button:hover {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
 }
