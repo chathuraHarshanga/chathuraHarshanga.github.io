@@ -53,6 +53,7 @@ nav {
 .about {
   height: 100vh;
   padding-top: 9vh;
+  background-color: aliceblue;
 }
 
 .burger {
@@ -231,16 +232,19 @@ nav {
 .resume {
   height: 100vh;
   padding-top: 9vh;
+  background-color: aliceblue;
 }
 
 .portfolio {
   height: 100vh;
   padding-top: 9vh;
+  background-color: aliceblue;
 }
 
 .blog {
   height: 100vh;
   padding-top: 9vh;
+  background-color: aliceblue;
 }
 
 .my-projects {
