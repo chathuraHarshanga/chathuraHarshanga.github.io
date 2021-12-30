@@ -297,8 +297,8 @@ nav {
 }
 
 .content-body img {
-  height: 70vw;
-  width: 70vw;
+  height: 20vw;
+  width: 20vw;
   margin-bottom: 2rem;
 }
 
@@ -312,5 +312,13 @@ nav {
     margin-left: 2rem;
     width: 3rem;
     height: 0.2rem;
+  }
+
+  .content-body img {
+    height: 70vw;
+    width: 70vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
