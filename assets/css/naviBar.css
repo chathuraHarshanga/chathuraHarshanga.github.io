@@ -29,7 +29,7 @@ nav {
   color: aliceblue;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 20px;
+  font-size: 1.4rem;
 }
 
 .navi-links {
@@ -47,13 +47,13 @@ nav {
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 1.3rem;
 }
 
 .about {
   height: 100vh;
   padding-top: 9vh;
-  background-color: aliceblue;
+  background-color: #fff;
 }
 
 .burger {
@@ -235,19 +235,19 @@ nav {
 .resume {
   height: 100vh;
   padding-top: 9vh;
-  background-color: aliceblue;
+  background-color: #fff;
 }
 
 .portfolio {
   height: 100vh;
   padding-top: 9vh;
-  background-color: aliceblue;
+  background-color: #fff;
 }
 
 .blog {
   height: 100vh;
   padding-top: 9vh;
-  background-color: aliceblue;
+  background-color: #fff;
 }
 
 .my-projects-button {
@@ -272,4 +272,19 @@ nav {
 .my-projects-button:hover {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
+}
+
+.about h3 {
+  font-family: "Fira Mono", monospace;
+  font-size: 2.5rem;
+  margin-left: 3rem;
+  color: rgb(116, 116, 116);
+}
+
+.underline {
+  height: 0.3rem;
+  background-color: rgb(55, 115, 245);
+  width: 5rem;
+  margin-left: 3rem;
+  border-radius: 10rem;
 }
