@@ -113,6 +113,9 @@ nav {
   .logo {
     font-size: 18px;
   }
+  .navi-links a {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -287,4 +290,27 @@ nav {
   width: 5rem;
   margin-left: 3rem;
   border-radius: 10rem;
+}
+
+.content-body {
+  margin: 3rem;
+}
+
+.content-body img {
+  height: 70vw;
+  width: 70vw;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .about h3 {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .underline {
+    margin-left: 2rem;
+    width: 3rem;
+    height: 0.2rem;
+  }
 }
