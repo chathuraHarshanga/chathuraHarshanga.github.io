@@ -324,6 +324,17 @@ nav {
   margin-left: 3rem;
   color: #173b6c;
 }
+.column ul {
+  font-family: "Spline Sans", sans-serif;
+  font-size: 1.1rem;
+  color: rgb(41, 41, 41);
+  text-align: justify;
+  margin: 0rem 2rem 0rem 3rem;
+}
+.column li {
+  padding-top: 1rem;
+}
+
 /* Media quiaries */
 
 @media screen and (max-width: 1024px) {
