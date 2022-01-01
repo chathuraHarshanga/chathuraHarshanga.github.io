@@ -333,8 +333,12 @@ nav {
 }
 .column li {
   padding-top: 1rem;
+  list-style: none;
 }
-
+.right-container p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 /* Media quiaries */
 
 @media screen and (max-width: 1024px) {
@@ -368,6 +372,7 @@ nav {
   .right-container h1 {
     font-size: 1.5rem;
     margin-left: 0rem;
+
     color: #173b6c;
     text-align: center;
   }
