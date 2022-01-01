@@ -380,4 +380,7 @@ nav {
     margin-left: 0rem;
     margin-right: auto;
   }
+  .column ul {
+    margin-left: 0rem;
+  }
 }
