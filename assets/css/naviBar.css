@@ -284,7 +284,7 @@ nav {
 }
 .about h3 {
   font-family: "Fira Mono", monospace;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-left: 3rem;
   color: rgb(116, 116, 116);
 }
@@ -302,8 +302,8 @@ nav {
 }
 
 .content-body img {
-  height: 15vw;
-  width: 15vw;
+  height: 17vw;
+  width: 17vw;
   margin-bottom: 2rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -329,7 +329,7 @@ nav {
   font-size: 1.1rem;
   color: rgb(41, 41, 41);
   text-align: justify;
-  margin: 0rem 2rem 0rem 3rem;
+  margin: 0rem 2rem 1rem 3rem;
 }
 .column li {
   padding-top: 1rem;
