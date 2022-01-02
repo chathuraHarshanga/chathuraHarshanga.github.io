@@ -51,9 +51,10 @@ nav {
 }
 
 .about {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 9vh;
   background-color: #fff;
+  flex-wrap: wrap;
 }
 
 .burger {
@@ -282,7 +283,7 @@ nav {
 .content {
   margin: auto 5rem auto 5rem;
 }
-.about h3 {
+h3 {
   font-family: "Fira Mono", monospace;
   font-size: 2rem;
   margin-left: 3rem;
@@ -342,7 +343,7 @@ nav {
 /* Media quiaries */
 
 @media screen and (max-width: 1024px) {
-  .about h3 {
+  h3 {
     margin-left: 2rem;
     font-size: 1.5rem;
   }
@@ -382,5 +383,9 @@ nav {
   }
   .column ul {
     margin-left: 0rem;
+    font-size: 1rem;
+  }
+  .about p {
+    font-size: 1rem;
   }
 }
