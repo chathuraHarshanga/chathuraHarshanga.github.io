@@ -340,9 +340,60 @@ h3 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+.intro {
+  background: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-text {
+  color: black;
+  font-size: 3rem;
+  font-family: "Heebo", sans-serif;
+}
+
+.slider {
+  background: rgb(196, 196, 196);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(100%);
+}
+.hide {
+  background: white;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+.cool-emoji {
+  width: 3.5rem;
+  height: 3.5rem;
+}
 /* Media quiaries */
 
 @media screen and (max-width: 1024px) {
+  .intro-text {
+    font-size: 1.5rem;
+  }
+  .cool-emoji {
+    width: 2rem;
+    height: 2rem;
+  }
   h3 {
     margin-left: 2rem;
     font-size: 1.5rem;
