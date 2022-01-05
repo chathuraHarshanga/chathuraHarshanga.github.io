@@ -384,6 +384,12 @@ h3 {
   width: 3.5rem;
   height: 3.5rem;
 }
+
+.social-icons {
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem;
+}
 /* Media quiaries */
 
 @media screen and (max-width: 1024px) {
@@ -438,5 +444,10 @@ h3 {
   }
   .about p {
     font-size: 1rem;
+  }
+  .social-icons {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 2rem;
   }
 }
