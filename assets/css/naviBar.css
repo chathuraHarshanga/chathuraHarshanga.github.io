@@ -336,6 +336,7 @@ h3 {
   padding-top: 1rem;
   list-style: none;
 }
+
 .right-container p {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -389,6 +390,22 @@ h3 {
   width: 5rem;
   height: 5rem;
   margin: 1rem;
+}
+
+.column h2 {
+  color: rgb(116, 116, 116);
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  font-family: "Heebo", sans-serif;
+}
+
+.column p {
+  font-family: "Spline Sans", sans-serif;
+  font-size: 1.1rem;
+  color: rgb(41, 41, 41);
+  text-align: justify;
+  margin: 1rem 2rem 1rem 3rem;
 }
 /* Media quiaries */
 
