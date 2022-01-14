@@ -407,6 +407,21 @@ h3 {
   text-align: justify;
   margin: 1rem 2rem 1rem 3rem;
 }
+
+.follow-me h3 {
+  color: #173b6c;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  font-family: "Heebo", sans-serif;
+}
+
+.follow-me img {
+  height: 3vw;
+  width: 3vw;
+  margin-bottom: 2rem;
+  box-shadow: none;
+}
 /* Media quiaries */
 
 @media screen and (max-width: 1024px) {
@@ -457,7 +472,12 @@ h3 {
   }
   .column ul {
     margin-left: 0rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    margin-right: -1rem;
+    text-align: left;
+  }
+  .column span strong {
+    padding-top: 0.5rem;
   }
   .about p {
     font-size: 1rem;
@@ -465,6 +485,24 @@ h3 {
   .social-icons {
     width: 4rem;
     height: 4rem;
+    margin-left: 2rem;
+  }
+  .follow-me img {
+    height: 13vw;
+    width: 13vw;
+    margin-bottom: 2rem;
+    box-shadow: none;
+    display: flex;
+  }
+  .follow-me h3 {
+    font-size: 1.2rem;
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
+  .display-flex {
+    display: flex;
+  }
+  .follow-me a {
     margin-left: 2rem;
   }
 }
