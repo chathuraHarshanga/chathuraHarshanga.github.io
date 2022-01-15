@@ -408,11 +408,18 @@ h3 {
   margin: 1rem 2rem 1rem 3rem;
 }
 
-.follow-me h3 {
+.sub-heading h3 {
   color: #173b6c;
   font-size: 1.5rem;
   margin-left: 3rem;
   margin-top: 2rem;
+  font-family: "Heebo", sans-serif;
+}
+.column h4 {
+  color: #173b6c;
+  font-size: 1.1rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
   font-family: "Heebo", sans-serif;
 }
 
@@ -421,6 +428,37 @@ h3 {
   width: 3vw;
   margin-bottom: 2rem;
   box-shadow: none;
+}
+
+.sub-content {
+  max-width: 40vw;
+}
+
+.shadow-box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  margin: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+.column h5 {
+  color: #173b6c;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  padding: 0.4rem;
+  font-family: "Heebo", sans-serif;
+}
+.label {
+  background-color: #bbd7ff;
+  max-width: 9vw;
+  word-wrap: break-word;
+  margin-left: 3rem;
+  text-align: center;
+  border-radius: 2px;
+}
+.sub-heading {
+  font-style: italic;
 }
 /* Media quiaries */
 
@@ -494,7 +532,7 @@ h3 {
     box-shadow: none;
     display: flex;
   }
-  .follow-me h3 {
+  .sub-heading h3 {
     font-size: 1.2rem;
     margin-left: 0rem;
     margin-top: 2rem;
