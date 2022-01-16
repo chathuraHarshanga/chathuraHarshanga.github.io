@@ -514,6 +514,11 @@ h3 {
   height: 50vw;
   margin: auto auto auto auto;
 }
+.project-construction {
+  height: 80%;
+  width: 80%;
+  margin: auto auto auto auto;
+}
 /* Media quiaries */
 
 @media screen and (max-width: 1024px) {
