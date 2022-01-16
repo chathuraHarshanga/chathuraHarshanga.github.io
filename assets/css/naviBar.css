@@ -509,6 +509,11 @@ h3 {
 .github-link a:hover {
   background-color: #17c900;
 }
+.under-construction {
+  width: 50vw;
+  height: 50vw;
+  margin: auto auto auto auto;
+}
 /* Media quiaries */
 
 @media screen and (max-width: 1024px) {
@@ -613,5 +618,18 @@ h3 {
   .mobile-view ul {
     min-width: 70vw;
     margin-left: 1.5rem;
+  }
+  .shadow-box-width {
+    max-width: 85vw;
+    min-width: 85vw;
+  }
+  .cover-image {
+    max-width: 80vw;
+    min-width: 80vw;
+    height: 20vh;
+  }
+  .under-construction {
+    width: 70vw;
+    height: 70vw;
   }
 }
