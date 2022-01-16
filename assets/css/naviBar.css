@@ -459,7 +459,7 @@ h3 {
   border-radius: 2px;
 }
 .italic {
-  font-style: italic;
+  font-family: "Heebo", sans-serif;
 }
 .link-button a {
   background-color: #f44336;
@@ -560,5 +560,27 @@ h3 {
   }
   .follow-me a {
     margin-left: 2rem;
+  }
+  .mobile-view h3 {
+    margin-left: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  .mobile-view h4 {
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    min-width: 70vw;
+  }
+
+  .label {
+    min-width: 70vw;
+    margin-left: 1.5rem;
+  }
+  .italic {
+    min-width: 70vw;
+    margin-left: -1.5rem;
+  }
+  .mobile-view ul {
+    min-width: 70vw;
+    margin-left: 1.5rem;
   }
 }
