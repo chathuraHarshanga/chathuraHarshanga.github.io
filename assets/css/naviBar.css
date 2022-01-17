@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-color: rgb(14, 14, 14);
+  background-color: rgb(255, 255, 255);
 }
 
 nav {
@@ -173,7 +173,7 @@ nav {
 /* home page text animation */
 
 .home {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,6 +182,7 @@ nav {
   font-size: 50px;
   font-family: "Fira Mono", monospace;
   letter-spacing: 1px;
+  background-color: black;
 }
 
 .animation-text {
@@ -519,6 +520,14 @@ h3 {
   width: 80%;
   margin: auto auto auto auto;
 }
+.skills-icon {
+  height: 5rem;
+  width: 5rem;
+  margin: 2rem;
+}
+.flex-container-skills {
+  display: flex;
+}
 /* Media quiaries */
 
 @media screen and (max-width: 1024px) {
@@ -636,5 +645,13 @@ h3 {
   .under-construction {
     width: 70vw;
     height: 70vw;
+  }
+  .skills-icon {
+    height: 5rem;
+    width: 5rem;
+    margin: 2rem;
+  }
+  .skills-container {
+    display: none;
   }
 }
