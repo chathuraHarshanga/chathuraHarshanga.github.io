@@ -9,6 +9,7 @@ html {
 
 body {
   background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
 }
 
 nav {
@@ -53,8 +54,18 @@ nav {
 .about {
   min-height: 100vh;
   padding-top: 9vh;
-  background-color: #fff;
   flex-wrap: wrap;
+}
+.about-content {
+  z-index: 1;
+  position: absolute;
+}
+.background-animation lottie-player {
+  z-index: -1;
+  position: absolute;
+  height: 25vw;
+  width: 25vw;
+  left: 70%;
 }
 
 .burger {
@@ -528,7 +539,24 @@ h3 {
 .flex-container-skills {
   display: flex;
 }
+.background-animation {
+  z-index: -1;
+  height: 10vw;
+  width: 10vw;
+}
 /* Media quiaries */
+@media screen and (max-width: 1586px) {
+  .background-animation lottie-player {
+    height: 20vw;
+    width: 20vw;
+    left: 80%;
+  }
+}
+@media screen and (max-width: 1480px) {
+  .background-animation lottie-player {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .intro-text {
