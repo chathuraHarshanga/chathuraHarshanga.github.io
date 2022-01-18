@@ -589,6 +589,7 @@ h3 {
   }
   .content {
     margin: auto;
+    line-height: 1.4;
   }
   .flex-container {
     display: block;
