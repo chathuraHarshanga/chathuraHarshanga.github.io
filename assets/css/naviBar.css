@@ -553,7 +553,10 @@ h3 {
   }
 }
 @media screen and (max-width: 1480px) {
-  .background-animation lottie-player {
+  .about-content {
+    position: relative;
+  }
+  .background-animation {
     display: none;
   }
 }
@@ -681,5 +684,11 @@ h3 {
   }
   .skills-container {
     display: none;
+  }
+  .social-icons {
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    margin-left: -1rem;
   }
 }
