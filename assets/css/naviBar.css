@@ -502,6 +502,10 @@ h3 {
   height: 20vh;
 }
 
+.cover-heading h3 {
+  margin-top: -1rem !important;
+}
+
 .project-box h3 {
   font-size: 1.1rem;
 }
@@ -562,6 +566,9 @@ h3 {
 }
 
 @media screen and (max-width: 1024px) {
+  .shadow-box {
+    margin: 8vw;
+  }
   .intro-text {
     font-size: 1.5rem;
   }
