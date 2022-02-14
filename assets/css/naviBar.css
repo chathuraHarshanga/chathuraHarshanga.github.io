@@ -544,10 +544,12 @@ h3 {
   width: 80%;
   margin: auto auto auto auto;
 }
+.flex-container-skills {
+  margin-left: 2rem;
+}
 .skills-icon {
   height: 5rem;
   width: 5rem;
-  margin: 2rem;
 }
 .flex-container-skills {
   display: flex;
@@ -556,6 +558,16 @@ h3 {
   z-index: -1;
   height: 10vw;
   width: 10vw;
+}
+.skills-label {
+  color: white;
+  padding: 0.8rem;
+  font-family: Arial;
+  border-radius: 8px;
+  background-color: #e7e7e7;
+  color: black;
+  margin-top: 2rem;
+  margin-left: 1rem;
 }
 /* Media quiaries */
 @media screen and (max-width: 1586px) {
