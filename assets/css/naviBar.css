@@ -516,6 +516,7 @@ h3 {
 
 .project-box h3 {
   font-size: 1.1rem;
+  margin-top: 1rem !important;
 }
 .github-link a {
   background-color: #0f8000;
@@ -524,8 +525,8 @@ h3 {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin-top: 1rem;
   border-radius: 5px;
+  margin-top: 1rem;
 }
 .git-link {
   bottom: 0;
@@ -574,6 +575,9 @@ h3 {
 }
 
 @media screen and (max-width: 1024px) {
+  .project-box h3 {
+    margin-top: -0.5rem !important;
+  }
   .shadow-box {
     margin: 8vw;
   }
